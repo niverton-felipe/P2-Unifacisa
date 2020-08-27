@@ -24,8 +24,9 @@ Os tipos primitivos são tipos de dados especiais internos à linguagem, não se
 ## Tipos Primitivos: Caracteres
 
 
-Tipo	     Tamanho (bits)	Faixa	Valor Padrão
-char            16        0 a 65635    \0
+| Tipo      |	     Tamanho (bits) |	Faixa       |	Valor Padrão |
+| :---:     |    :---:            |  :---:      | :---:        |
+|char       |          16         | 0 a 65635   | \0           |
 
 O tipo char permite armazenar um caractere Unicode, utilizando para isso 16 bits.
 
@@ -35,5 +36,6 @@ Valor padrão para o tipo char: ‘\u0000’.
 ## Tipos Primitivos: boolean
 O tipo boolean permite armazenar um valor lógico nos estados True ou False (verdadeiro ou falso), ocupando apenas 1 bit de espaço.
 
-Tipo	     Tamanho (bits)	Faixa	Valor Padrão
-boolean          1        false/true   false
+|Tipo	    | Tamanho (bits)	| Faixa	      | Valor Padrão |
+| :---:   |    :---:        | :---:       |  :---:       |
+|boolean  |        1        | false/true  | false        |
