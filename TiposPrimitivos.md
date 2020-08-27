@@ -12,6 +12,8 @@ Os tipos primitivos são tipos de dados especiais internos à linguagem, não se
 | int	   |    32	       |-231 a 231 – 1	|    0         |
 | long	 |    64	       |-263 a 263 -1	  |    0L        |
 
+**Nota:** *no tipo long foi usado a letra L logo após o 0. Isso aoontece porque o Java tenta colocar os valores inteiros como variáveis do tipo int. Usar o ao lado do número força a linguagem a aceitar o tipo long. *
+
 ## Tipos Primitivos: Números de Ponto Flutuante
 
 | Tipo  | Tamanho (bits) |	Faixa 	                                                     | Valor Padrão |
@@ -39,3 +41,7 @@ O tipo boolean permite armazenar um valor lógico nos estados True ou False (ver
 |Tipo	    | Tamanho (bits)	| Faixa	      | Valor Padrão |
 | :---:   |    :---:        | :---:       |  :---:       |
 |boolean  |        1        | false/true  | false        |
+
+## Bit mais significativo
+
+  Durante a explanação sobre o intervalo de cada faixa de bit (8 bits, 16 bits, 32 bits e 64 bits) nos foi apresentado o conceito de bit mais significativo. Tal bit fica na extremidade esquerda e pode ser utilizado para o bit de sinal (positivo ou negativo) de um número binário.
