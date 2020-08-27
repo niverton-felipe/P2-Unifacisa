@@ -5,18 +5,19 @@ Os tipos primitivos são tipos de dados especiais internos à linguagem, não se
 
 ## Tipos primitivos: números inteiros
 
-| Tipo   | Tamanho (bits)|	Faixa	Valor   |  Padrão |
-|  :---: |      :---:    |    :---:       |   :---: |
-| byte	 |    8	         | -128 a 127	    |    0    |
-| short	 |    16	       |-32.768 a 32.767|	   0    |
-| int	   |    32	       |-231 a 231 – 1	|    0    |
-| long	 |    64	       |-263 a 263 -1	  |    0L   |
+| Tipo   | Tamanho (bits)|	Faixa	        | Valor Padrão |
+|  :---: |      :---:    |    :---:       |   :---:      |
+| byte	 |    8	         | -128 a 127	    |    0         |
+| short	 |    16	       |-32.768 a 32.767|	   0         |
+| int	   |    32	       |-231 a 231 – 1	|    0         |
+| long	 |    64	       |-263 a 263 -1	  |    0L        |
 
 ## Tipos Primitivos: Números de Ponto Flutuante
 
-Tipo	     Tamanho (bits)	Faixa	Valor                                                   Padrão
-float	        32	        IEEE 754 ±1,40129846432481707e-45 a 3,40282346638528860e+38 	  0.0f
-double	      64	        IEEE 754 ±4,94065645841246544e-324 a 1,79769313486231570e+308 	0.0
+| Tipo  | Tamanho (bits) |	Faixa 	                                                     | Valor Padrão |
+|:---:  | :---:          | :---:                                                         |  :---:       | 
+|float  |	  32	         |IEEE 754 ±1,40129846432481707e-45 a 3,40282346638528860e+38 	 |    0.0f      | 
+|double |	  64	         |IEEE 754 ±4,94065645841246544e-324 a 1,79769313486231570e+308  |	    0.0     | 
 
 **Nota:** *de acordo com o que foi pesquisado, além do tamando de bits do double ser bem superior ao do float (o que permite que a extensão de número armazenada seja muito maior) esse tipo também possui maior precisão e deve ser preferivelmente empregado quando a precisão do valor for um fator importante.*
 
