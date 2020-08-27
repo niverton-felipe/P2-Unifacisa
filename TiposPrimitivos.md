@@ -6,7 +6,7 @@ Os tipos primitivos são tipos de dados especiais internos à linguagem, não se
 ## Tipos primitivos: números inteiros
 
 | Tipo   | Tamanho (bits)|	Faixa	Valor   |  Padrão |
-|--------|---------------|----------------|---------|
+|  :---: |      :---:    |    :---:       |   :---: |
 | byte	 |    8	         | -128 a 127	    |    0    |
 | short	 |    16	       |-32.768 a 32.767|	   0    |
 | int	   |    32	       |-231 a 231 – 1	|    0    |
