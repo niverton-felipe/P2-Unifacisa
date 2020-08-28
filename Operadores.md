@@ -10,14 +10,14 @@
   
   int idade = 26;
  ```  
-  No exemplo acima, o valor de 26 foi atribuído à variável idade.
+  *No exemplo acima, o valor de 26 foi atribuído à variável idade.*
   
 ## Operadores aritméticos
   
   Este operadores realizam as operações fundamentais da matemática entre duas variáveis e retornam um resultado.
   
   Tabela com os operadores aritméticos
-  |Símbolo| Operador         |
+  |Operador| Função         |
   | :---: | :---:            |
   |+      |operador de adição|
   |-      | operador subtração|
@@ -31,11 +31,12 @@ Os operadores de incremento e decremento também são bastante utilizados. Basic
 antes ou depois da variável e incrementam ou decrementam em 1 o valor da variável.
 
 *Exemplo de uso:*
-
+```
 int numero = 5;
 numero++;
 numero--;
 //numero continuará sendo 5.
+```
 
 Quando declaramos esse operador antes da variável, o incremento é realizado antes do valor da variável ser lido para o processamento ao 
 qual a instrução pertence. Quando declarado depois, ocorre o contrário: lê-se o valor da variável para processamento e só então o valor 
@@ -47,7 +48,7 @@ da variável é incrementado.
   retornando o boleano true para o caso verdadeiro e false caso contrário. 
   
 *Exemplo: *
-
+```
 int numberUm = 5
 int numberDois = 6
 
@@ -56,14 +57,14 @@ if (numberUm == numberDois) {
 }else {
   System.out.println("Os números são diferentes")
 }
-
+```
 ## Operadores Relacionais
 
 Assim como os operadores de igualdade, os relacionais avaliam dois operandos comparando se o valor da direita é maior, menor ou igual ao 
 da esquerda, e retornando um valor booleano de acordo com a comparação que é estabelecida.
 
 *Exemplo de uso:*
-
+```
 int valorA = 1;
 int valorB = 2;
 
@@ -82,19 +83,18 @@ if (valorA < valorB) {
 if (valorA <= valorB) {
                 System.out.println(“menor ou igual”);
 }
-
+```
 Este algoritmo realiza uma série de comparações entre os valores das variáveis valorA e valorB e imprime uma mensagem caso o teste lógico
 retorne true.
  
-* Tabela com os operadores relacionais em JAVA*
+**Tabela com os operadores relacionais em JAVA**
 
-> Utilizado quando desejamos verificar se uma variável é maior que outra.
-
->= Utilizado quando desejamos verificar se uma variável é maior ou igual a outra
-
-< Utilizado quando desejamos verificar se uma variável é menor que outra.
-
-<= Utilizado quando desejamos verificar se uma variável é menor ou igual a outra. 
+|Operador | Função |
+| :---:   |:---:   |
+|>        | Utilizado quando desejamos verificar se uma variável é maior que outra.|
+|>=       | Utilizado quando desejamos verificar se uma variável é maior ou igual a outra|
+|<        |Utilizado quando desejamos verificar se uma variável é menor que outra.|
+|<=       |Utilizado quando desejamos verificar se uma variável é menor ou igual a outra.| 
 
 ## Operadores lógicos
 
