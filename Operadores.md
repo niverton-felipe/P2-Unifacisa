@@ -5,9 +5,9 @@
 ## Operadores de atribuição (Java)
   
   Este operador é utilizado para definir ou sobrescrever o valor de uma variável. Para que essa operação seja realizado utilizamos o sinal de "=".
-   ```
-  Exemplo:
-  
+   
+  *Exemplo:*
+  ```
   int idade = 26;
  ```  
   *No exemplo acima, o valor de 26 foi atribuído à variável idade.*
@@ -47,7 +47,7 @@ da variável é incrementado.
   Estes operadores verificam se o valor ou resultado da expressão lógica à esquerda é igual ("==") ou diferente ("!=") ao da direita,
   retornando o boleano true para o caso verdadeiro e false caso contrário. 
   
-*Exemplo: *
+*Exemplo:*
 ```
 int numberUm = 5
 int numberDois = 6
@@ -115,7 +115,7 @@ if((1 == (3 - 2)) || (3 == (4 - 2))){
 
 ## Operadores unários x Operadores Binários
 
-  Uma diferença importante entre os operadores unários e binários está relacionada a quantidade de variáveis que são necessárias para que
+  Uma diferença importante entre os operadores **unários** e **binários** está relacionada a quantidade de variáveis que são necessárias para que
   eles sejam executados. Enquanto o primeiro precisa de apenas uma variável para operar, o outro (como o próprio sugere) necessita de dois.
   
   ** Exemplo de operadores unários: decremento/incremento
