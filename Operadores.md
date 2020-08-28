@@ -16,7 +16,7 @@
   
   Este operadores realizam as operações fundamentais da matemática entre duas variáveis e retornam um resultado.
   
-  Tabela com os operadores aritméticos
+  *Tabela com os operadores aritméticos*
   |Operador| Função         |
   | :---: | :---:            |
   |+      |operador de adição|
@@ -104,7 +104,7 @@ retornará true somente se todas as expressões forem verdadeiras, enquanto o ||
 true.
 
 *Exemplo:*
-
+```
 if((1 == (2 -1)) && (2 == (1 + 1))){
      System.out.println(“Ambas as expressões são verdadeiras”);
 }
@@ -112,7 +112,7 @@ if((1 == (2 -1)) && (2 == (1 + 1))){
 if((1 == (3 - 2)) || (3 == (4 - 2))){
      System.out.println(“Ao menos uma das expressões é verdadeira”);
 }
-
+```
 ## Operadores unários x Operadores Binários
 
   Uma diferença importante entre os operadores **unários** e **binários** está relacionada a quantidade de variáveis que são necessárias para que
