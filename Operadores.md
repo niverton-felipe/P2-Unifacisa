@@ -5,11 +5,11 @@
 ## Operadores de atribuição (Java)
   
   Este operador é utilizado para definir ou sobrescrever o valor de uma variável. Para que essa operação seja realizado utilizamos o sinal de "=".
-  
+   ```
   Exemplo:
   
   int idade = 26;
-  
+ ```  
   No exemplo acima, o valor de 26 foi atribuído à variável idade.
   
 ## Operadores aritméticos
@@ -17,15 +17,13 @@
   Este operadores realizam as operações fundamentais da matemática entre duas variáveis e retornam um resultado.
   
   Tabela com os operadores aritméticos
-  + operador de adição
-
-- operador subtração
-
-* operador de multiplicação
-
-/ operador de divisão
-
-% operador de módulo (ou resto da divisão)
+  |Símbolo| Operador         |
+  | :---: | :---:            |
+  |+      |operador de adição|
+  |-      | operador subtração|
+  |*      | operador de multiplicação|
+  |  /    |operador de divisão|
+  |%      |operador de módulo (ou resto da divisão)|
 
 ## Operadores de incremento e decremento
 
