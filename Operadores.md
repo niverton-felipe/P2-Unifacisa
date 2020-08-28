@@ -118,5 +118,6 @@ if((1 == (3 - 2)) || (3 == (4 - 2))){
   Uma diferença importante entre os operadores **unários** e **binários** está relacionada a quantidade de variáveis que são necessárias para que
   eles sejam executados. Enquanto o primeiro precisa de apenas uma variável para operar, o outro (como o próprio sugere) necessita de dois.
   
-  *Exemplo de operadores unários: decremento/incremento* \n
+  *Exemplo de operadores unários: decremento/incremento*
+  
   *Exemplo de operadores binários: relacionais*
