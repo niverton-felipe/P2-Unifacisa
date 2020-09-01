@@ -8,7 +8,7 @@
   A estrutura de decisão if é utilizada para impor uma ou mais condições que deverão ser satisfeitas para a execução de uma instrução ou bloco de instruções. A sua forma geral é a seguinte:
 
 ```
-**If (<condição>)** {
+If (<condição>) {
   <instrução ou bloco>
 }
 ````
@@ -17,7 +17,7 @@ A condição sempre irá figurar entre parênteses, após a palavra reservada if
 Havendo uma única instrução condicionada pela estrutura if, ela figura logo após a condição e termina com um ponto e vírgula. A sintaxe é a seguinte:
 
 ```
-**If(<Condição>)** <Instrução>;
+If(<Condição>) <Instrução>;
 ```   
 
 ## Estrutura if-else
