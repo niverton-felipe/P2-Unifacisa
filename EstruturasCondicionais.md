@@ -1,4 +1,4 @@
-#Estruturas Condicionais
+# Estruturas Condicionais
  
  As estruturas condicionais permitem controlar o fluxo da execução do algoritmo, permitindo que este siga caminhos alternativos sob atendimento de determinadas condições.
    Sem estas estruturas a execução do código seria linear, o que acabaria limitando a execução ou aumentando generosamente a complexidade (tempo e espaço) do algotirmo escrito.
@@ -8,18 +8,19 @@
   A estrutura de decisão if é utilizada para impor uma ou mais condições que deverão ser satisfeitas para a execução de uma instrução ou bloco de instruções. A sua forma geral é a seguinte:
 
 ```
-If (<condição>) {
-<instrução ou bloco>
+**If (<condição>)** {
+  <instrução ou bloco>
 }
-A condição sempre irá figurar entre parênteses, após a palavra reservada if, e deve ser uma expressão booleana que resulte em um valor true ou false. A instrução ou o bloco de instruções somente será executado caso o resultado dessa expressão seja true. Caso o resultado seja false, o fluxo de execução será desviado e a instrução ou o bloco de instruções não será executado.
 ````
+A condição sempre irá figurar entre parênteses, após a palavra reservada if, e deve ser uma expressão booleana que resulte em um valor true ou false. A instrução ou o bloco de instruções somente será executado caso o resultado dessa expressão seja true. Caso o resultado seja false, o fluxo de execução será desviado e a instrução ou o bloco de instruções não será executado.
+
 Havendo uma única instrução condicionada pela estrutura if, ela figura logo após a condição e termina com um ponto e vírgula. A sintaxe é a seguinte:
 
 ```
-If(<Condição>) <Instrução>;
+**If(<Condição>)** <Instrução>;
 ```   
 
-##Estrutura if-else
+## Estrutura if-else
 A estrutura de decisão if-else é uma variação da estrutura if. Ela é utilizada para impor uma ou mais condições que deverão ser satisfeitas para a execução de uma instrução ou bloco de instruções e possibilita a definição de uma instrução ou bloco de instruções a serem executados caso as condições não sejam satisfeitas. A sua forma geral é a seguinte:
 
 ```
