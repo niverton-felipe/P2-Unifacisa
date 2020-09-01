@@ -3,3 +3,4 @@ Repositório que contém o conteúdo trabalhado na disciplina P2 da Unifacisa. A
 
 [1. Tipos Primitivos](../master/TiposPrimitivos.md) </br>
 [2. Operadores](../master/Operadores.md)
+[2. Estruturas Condicionais](../master/EstruturasCondicionais.md)
