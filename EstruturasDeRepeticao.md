@@ -1,4 +1,4 @@
-#Estruturas de repetição
+# Estruturas de repetição
 
   As estruturas de repetição, que também são conhecidas como *iteração, laços ou loops*, são utilizadas para executar repetidamente uma instrução 
   ou bloco de instrução enquanto determinada condição estiver sendo satisfeita.
@@ -15,7 +15,7 @@ estruturas de decisão uma expressão booleana que é avaliada a cada iteração
 pode ser composto por uma única instrução ou um conjunto de instruções. A iteração é instrução booleana que deverá ser executada depois 
 do corpo e antes de uma nova repetição.
 
-##While
+## While
 
   A estrutura de repetição While (em português significa enquanto) é utilizada para que o algoritmo executa uma instrução ou determinado conjunto
   de instruções enquanto a condição imposta pelo teste lógico retorne **true**.
