@@ -46,7 +46,8 @@ do corpo e antes de uma nova repetição.
   A estrutura de repetição *do...while* é uma variação do *while*. A principal diferença entre elas deve-se ao fato da primeira executar um determinado bloco de isntruções ao menos uma vez, enquanto o segundo processar o conjunto de instrução zero ou n vezes, a depender do retorno do teste lógico.
   
   ```
-  public class EstruturaDeRepeticaoDoWhile{
+  public class EstruturaDeRepeticaoDoWhile {
+   
    public static void main(String[] args) {
     int number = 0;
     do {
@@ -56,7 +57,28 @@ do corpo e antes de uma nova repetição.
    }
   }
   ```
-    É importante observar que o bloco de instrução é escrito primeira que o teste lógico,e por este motivo, ele é executado obrigatoriamente ao menos uma vez.
-    Foi utilizada a mesma lógica do exemplo da estrutura de repetição while para facilitar o entendimento sobre a diferença de sintaxe e lógica das duas estruturas de repetição.
-    
+ É importante observar que o bloco de instrução é escrito primeira que o teste lógico,e por este motivo, ele é executado obrigatoriamente ao menos uma vez.
+ Foi utilizada a mesma lógica do exemplo da estrutura de repetição while para facilitar o entendimento sobre a diferença de sintaxe e lógica das duas estruturas de repetição.
+
+## For
+
+O *for* também é uma instrução de repetição que processa uma instrução ou grupo de instrução zero ou mais vezes. O que munda é a sintaxe, no caso do for a variável de controle, o valor inicial, o incremento e a condição de continuação do loop, são declarados como em uma espécie de cabeçalho, também chamado de **cabeçalho da instrução for**.
+
+O formato da sintaxe da instrução de repetição for fica assim:
+
+Detalhando a estrutura acima temos a palavra reservada *for*, a **variável de controle** seguida do seu **valor de inicialização**, e então esse bloco do cabeçalho é separado por um ponto e vírgula, continuando temos a **condição de continuação do loop** que é uma *expressão booleana*, o ponto e vírgula e o **incremento**.
+   
+```
+public classe EstruturaDeRepeticaoFor{
+  public static void main(String[] args){
+    for(int number = 0; number <= 100; number++){
+      System.out.println(number);
+    }
+  }
+}
+```
+
+## Considerações finais
+
+  É recomendado que utilizemos a estrutura de repetição *for* quando conhecemos previamente o número de repetições para que determinado conjunto de instruções aconteça. Nessa situação, a utilização dessa sintaxe tornará o código mais limpo. Por sua vez, o *while* deve ser utilizado quando não temos ciência do número de repetições serão necessárias para que determina instrução seja executada, nesse caso utilizamos alguma condição de parada no teste lógico.
     
