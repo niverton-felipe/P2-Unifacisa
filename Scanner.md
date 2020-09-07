@@ -58,7 +58,7 @@ public class TiposDeMetodosScanner {
   
 ## Referências
   Além do que fora lecionado durante as aulas, este resumo fora construído utilizando-se de um artigo escrito no 
-  [DevMedia](https://www.devmedia.com.br/como-funciona-a-classe-scanner-do-java/28448) 
+  [DevMedia](https://www.devmedia.com.br/como-funciona-a-classe-scanner-do-java/28448) .
   
        
      
