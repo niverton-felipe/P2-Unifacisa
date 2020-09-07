@@ -12,7 +12,7 @@
    Além da importanção mostrada acima, é necessário criar uma variável de referência (objeto nesse caso) do tipo Scanner e instanciá-la com 
    o objeto System.in sendo passado como argumento dentro do construtor.
    
-   * **Observação:** O objeto System.in é o que faz a leitura do que se escreve no teclado.*
+   ***Observação:*** *O objeto System.in é o que faz a leitura do que se escreve no teclado.*
    
    ```
  import java.util.Scanner;
@@ -27,16 +27,13 @@
 }
    ```
    
-     No exemplo mostrado acima, foi criada uma variável de referência do tipo Scanner chamado de input para receber entradas do usuário. A variável
-     *nomeAluno* foi criada para receber de fato essa entrada, é importante observar que por se tratar do tipo String foi utilizado o método next,
-     na linguagem Java, é preciso mudar o método de recebimento de entrada de acordo com o tipo de dado que o algoritmo espera receber. Por fim, o programa imprimirá
-     o nome do alun que for determinado pelo usuário.
+   No exemplo mostrado acima, foi criada uma variável de referência do tipo Scanner chamado de input para receber entradas do usuário. 
+    A variável *nomeAluno* foi criada para receber de fato essa entrada, é importante observar que por se tratar do tipo String foi utilizado o método next,na linguagem Java, é preciso mudar o método de recebimento de entrada de acordo com o tipo de dado que o algoritmo espera receber. Por fim, o programa imprimirá o nome do alun que for determinado pelo usuário.
      
 ## Tipos de entrada
     
-    Como já mencionado durante o resumo, o nome do método utilizado para receber o valor, variará de acordo o tipo de dado que o programa
-    espera receber. Tal nome segue o seguinte padrão next<TipoDado>().
-    No exemplo abaixo, são mostrados o nome dos métodos utilizados pelos tipos primitivos em Java mais o tipo reference String.
+  Como já mencionado durante o resumo, o nome do método utilizado para receber o valor, variará de acordo o tipo de dado que o programa espera receber. Tal nome segue o seguinte padrão next<TipoDado>().
+   No exemplo abaixo, são mostrados o nome dos métodos utilizados pelos tipos primitivos em Java mais o tipo reference String.
     
 ```
 import java.util.Scanner;
@@ -57,10 +54,7 @@ public class TiposDeMetodosScanner {
 ```
 ## Considerações Finais
 
-  O objetivo do texto foi apresentar de maneira introdutória os conceitos do Scanner. Nesse sentido, não foram utilizadas exemplos um pouco
-  mais complexos combinando elementos de **ORIENTAÇÃO A OBJETOS**, tão pouco foram abordados assuntos como os demais métodos da classe Scanner,
-  utilização do bloco try/catch como boa prática ou o fato da classe Scanner gerar tokens. Por se tratar do começo da disciplina, esses assuntos ainda
-  serão maturados e posteriormente serão mencionados em outros assuntos.
+  O objetivo do texto foi apresentar de maneira introdutória os conceitos do Scanner. Nesse sentido, não foram utilizadas exemplos um pouco mais complexos combinando elementos de **ORIENTAÇÃO A OBJETOS**, tão pouco foram abordados assuntos como os *demais métodos da classe Scanner*, utilização do *bloco try/catch* como boa prática ou o fato da classe Scanner gerar *tokens*. Por se tratar do começo da disciplina, esses assuntos aindaserão maturados e posteriormente mencionados em outros assuntos.
   
        
      
