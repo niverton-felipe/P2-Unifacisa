@@ -56,5 +56,8 @@ public class TiposDeMetodosScanner {
 
   O objetivo do texto foi apresentar de maneira introdutória os conceitos do Scanner. Nesse sentido, não foram utilizadas exemplos um pouco mais complexos combinando elementos de **ORIENTAÇÃO A OBJETOS**, tão pouco foram abordados assuntos como os *demais métodos da classe Scanner*, utilização do *bloco try/catch* como boa prática ou o fato da classe Scanner gerar *tokens*. Por se tratar do começo da disciplina, esses assuntos aindaserão maturados e posteriormente mencionados em outros assuntos.
   
+## Referências
+  Além do que fora lecionado durante as aulas, este resumo fora construído utilizando-se de um artigo escrito no [DevMedia] (https://www.devmedia.com.br/como-funciona-a-classe-scanner-do-java/28448) 
+  
        
      
