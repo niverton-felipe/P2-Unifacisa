@@ -40,3 +40,23 @@ do corpo e antes de uma nova repetição.
  o valor da variável number.
  Por fim, é utilizado o operador de incremento **+=** para acrescentar + 2 ao valor de number e assim evitar que o código caia 
  em *loop infinito*.
+
+## Do..While
+
+  A estrutura de repetição *do...while* é uma variação do *while*. A principal diferença entre elas deve-se ao fato da primeira executar um determinado bloco de isntruções ao menos uma vez, enquanto o segundo processar o conjunto de instrução zero ou n vezes, a depender do retorno do teste lógico.
+  
+  ```
+  public class EstruturaDeRepeticaoDoWhile{
+   public static void main(String[] args) {
+    int number = 0;
+    do {
+      System.out.println(number);
+      number += 2;
+    } while(number <= 100)
+   }
+  }
+  ```
+    É importante observar que o bloco de instrução é escrito primeira que o teste lógico,e por este motivo, ele é executado obrigatoriamente ao menos uma vez.
+    Foi utilizada a mesma lógica do exemplo da estrutura de repetição while para facilitar o entendimento sobre a diferença de sintaxe e lógica das duas estruturas de repetição.
+    
+    
