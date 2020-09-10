@@ -95,5 +95,33 @@ public class Professor {
       
 ## Alocação de um objeto na memória RAM
 
+```
+public class Professor {
+    public String nome;
+    public String matricula;
+    public String cpf;
+    public String rg;
+
+    /*Uso do this elimina a necessidade de usar params,além de deixar
+    * método com os atributos específicos do objeto que foi instanciado.*/
+    public void imprime(){
+        System.out.println("===================");
+        System.out.println("CPF: " + this.cpf);
+        System.out.println("RG: " + this.rg);
+        System.out.println("Nome: " + this.nome);
+        System.out.println("Matricula: " + this.matricula);
+    }
+        
+    public static void main(String[] args){
+        Professor prof = new Professor();
+        prof.cpf = "094.659.484-08";
+        prof.matricula = "1243487";
+        prof.nome = "Eduardo Falcão";
+        prof.rg = "457485-9";    
+  }
+}
+```
+  Assim que instanciado, será criado um espaço na memória para alocar o endereço de memória que **prof** referencia. Além disso, outro espaço é criado para alocar todos os atributos que pertencem a classe **Professor** e foi instanciado pelo objeto **prof**. Além disso, é importante lembrar que o espaço criado para guardar o endereço que o objeto referencia é necessário devido ao tamanho do espaço reservado para armazenar os atributos do objeto não ser estástico.
+
 ![Alocação do objeto na memória](https://github.com/niverton-felipe/P2-Unifacisa/blob/master/alocacao-de-objeto-na-memoria.png)
 
