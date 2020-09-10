@@ -88,11 +88,12 @@ public class Professor {
     }
     ```
     
-      Conforme mencionado anteriormente, é uma boa prática criar mais de um construtor para que aumentemos as possibilidades de instanciar
-      um novo objeto. Um ponto interessante a ressaltar, é que a fim de evitar duplicação de código é possível criar sobrecarga de construtores,
+   Conforme mencionado anteriormente, é uma boa prática criar mais de um construtor para que aumentemos as possibilidades de instanciar
+   um novo objeto. Um ponto interessante a ressaltar, é que a fim de evitar duplicação de código é possível criar sobrecarga de construtores,
       utilizando outros construotres com menos parâmetros. Para isso, basta utilizar a palavra reservada **new** e entre parânteses definir quais
       argumentos serão utilizados, para finalizar a criação basta declarar quais os outros parâmetros que serão utilizados.
       
 ## Alocação de um objeto na memória RAM
 
+![Alocação do objeto na memória](https://github.com/niverton-felipe/P2-Unifacisa/blob/master/alocacao-de-objeto-na-memoria.png)
 
