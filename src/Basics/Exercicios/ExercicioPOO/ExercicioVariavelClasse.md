@@ -23,8 +23,7 @@ Por fim, mude o valor da variável de classe *promocao* para *true*, e imprima n
 o valores devem aparecer com desconto).
 
 ### Resposta
-  Ao colocar o atributo promoção como variável de classe e condicionar o método *calculaPreco()* para acrescentar 10% de desconto caso esse atributo seja true, percebeu-se que
-  dentro do método main foi preciso apenas alterar o valor do atributo promooção para true (diretamente da classe) para que o valor de todos os carros recebessem desconto de 10%.
+  Ao colocar o atributo promoção como variável de classe e condicionar o método *calculaPreco()* para acrescentar **10%** de desconto caso esse atributo seja true, percebeu-se que dentro do método main foi preciso apenas alterar o valor do atributo promooção para true (diretamente da classe) para que o valor de todos os carros recebessem **desconto de 10%**.
   
 
 ## Questão 2
@@ -47,7 +46,7 @@ Por fim, imprima os valores dos carros com promoção.
 
 ### Resposta
 
-  Ao colocar **promoção** como atributo de instância, identificou-se que para que determinada objeto recebesse um desconto de 10% era preciso alterar por meio do próprio objeto o atributo promoção para true.
+  Ao colocar **promoção** como atributo de instância, identificou-se que para que determinada objeto recebesse um desconto de 10% era preciso alterar por meio do **próprio objeto** o atributo promoção para **true**.
   
 
 ## Questão 3
@@ -58,6 +57,6 @@ Semanticamente, para este exemplo, qual o efeito prático de *promocao* ser uma 
 
 ### Resposta 
 
-  De modo prático, foi muito mais fácil aplicar um desconto para todos os carros quando usou-se o atributo de classe. Visto que era necessário fazer a alteração do atributo promoção por meio da própria classe.
-  Semanticamente falando, usar a variável de classe seria indicado para as situações onde a loja aplicaria a promoção para qualquer carroq ue fosse vendido. Usar o atributo de instância, por sua vez, seria mais indicado para as situações onde o desconto dependesse de uma regra de negócio específico, como por exemplo, pagar à vista.
+  De modo prático, foi muito mais fácil aplicar um desconto para todos os carros quando usou-se o **atributo de classe**. Visto que era necessário fazer a alteração do atributo promoção por meio da **própria classe**.
+  Semanticamente falando, usar a variável de classe seria indicado para as situações onde a loja aplicaria a promoção para qualquer carro que fosse vendido. Usar o **atributo de instância**, por sua vez, seria mais indicado para as situações onde o desconto dependesse de uma regra de negócio específico, como por exemplo, pagar à vista.
   
