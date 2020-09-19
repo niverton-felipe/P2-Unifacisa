@@ -88,11 +88,40 @@ public class Professor {
     }
     ```
     
-      Conforme mencionado anteriormente, é uma boa prática criar mais de um construtor para que aumentemos as possibilidades de instanciar
-      um novo objeto. Um ponto interessante a ressaltar, é que a fim de evitar duplicação de código é possível criar sobrecarga de construtores,
+   Conforme mencionado anteriormente, é uma boa prática criar mais de um construtor para que aumentemos as possibilidades de instanciar
+   um novo objeto. Um ponto interessante a ressaltar, é que a fim de evitar duplicação de código é possível criar sobrecarga de construtores,
       utilizando outros construotres com menos parâmetros. Para isso, basta utilizar a palavra reservada **new** e entre parânteses definir quais
       argumentos serão utilizados, para finalizar a criação basta declarar quais os outros parâmetros que serão utilizados.
       
 ## Alocação de um objeto na memória RAM
 
+```
+public class Professor {
+    public String nome;
+    public String matricula;
+    public String cpf;
+    public String rg;
+
+    /*Uso do this elimina a necessidade de usar params,além de deixar
+    * método com os atributos específicos do objeto que foi instanciado.*/
+    public void imprime(){
+        System.out.println("===================");
+        System.out.println("CPF: " + this.cpf);
+        System.out.println("RG: " + this.rg);
+        System.out.println("Nome: " + this.nome);
+        System.out.println("Matricula: " + this.matricula);
+    }
+        
+    public static void main(String[] args){
+        Professor prof = new Professor();
+        prof.cpf = "094.659.484-08";
+        prof.matricula = "1243487";
+        prof.nome = "Eduardo Falcão";
+        prof.rg = "457485-9";    
+  }
+}
+```
+  Assim que instanciado, será criado um espaço na memória para alocar o endereço de memória que **prof** referencia. Além disso, outro espaço é criado para alocar todos os atributos que pertencem a classe **Professor** e foi instanciado pelo objeto **prof**. Além disso, é importante lembrar que o espaço criado para guardar o endereço que o objeto referencia é necessário devido ao tamanho do espaço reservado para armazenar os atributos do objeto não ser estástico.
+
+![Alocação do objeto na memória](https://github.com/niverton-felipe/P2-Unifacisa/blob/master/alocacao-de-objeto-na-memoria.png)
 
