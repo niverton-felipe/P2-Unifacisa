@@ -6,6 +6,7 @@ public class Carro {
     private boolean vidroEletrico,arCondicionado, cambioAutomatico, direcaoEletrica;
     private double precoBase;
     private double precoFinal;
+    public static boolean promocao;
 
     public Carro(){
 
@@ -88,6 +89,7 @@ public class Carro {
         if (cambioAutomatico) precoFinal += 1250;
         if (vidroEletrico) precoFinal += 1250;
         if (direcaoEletrica) precoFinal += 1250;
+        if (promocao) precoFinal *= 0.9;
         return precoFinal;
     }
 
